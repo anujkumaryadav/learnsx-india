@@ -30,6 +30,7 @@ const toggleMenu = () => {
             <div className='text-center list-none flex select-none'>
                 <Link to='/' className=' text-black hover:text-pink-200 px-4 py-2'><li>Home</li></Link>
                 <Link to='/learn' className='text-black hover:text-pink-200 px-4 py-2'><li>Learn</li></Link>
+                <Link to='/blog' className='text-black hover:text-pink-200 px-4 py-2'><li>Blog</li></Link>
                 <Link to='/contact' className='text-black hover:text-pink-200 px-4 py-2'><li>Contact</li></Link>
                 <Link to='/about' className='text-black hover:text-pink-200 px-4 py-2 mr-5'><li>About</li></Link>
             </div>
@@ -67,6 +68,7 @@ const toggleMenu = () => {
        <div className="flex flex-col m-2 p-2 gap-2 shadow-md">
          <Link to='/' className='hover:text-pink-100 ' onClick={toggleMenu}>Home</Link>
          <Link to='/learn' className='hover:text-pink-100' onClick={toggleMenu}>Learn</Link>
+         <Link to='/blog' className='hover:text-pink-100' onClick={toggleMenu}>Blog</Link>
          <Link to='/contact' className='nav-link hover:text-pink-100' onClick={toggleMenu}>Contact Us</Link>
          <Link to='/about' className='nav-link hover:text-pink-100' onClick={toggleMenu}>About Us</Link>
          <Link to="#" className='flex justify-center'>

@@ -5,6 +5,7 @@ import Home from './components/core/Home'
 import Learn from './components/core/Learn'
 import Contact from './components/core/Contactus'
 import Aboutus from './components/core/Aboutus'
+import Blog from './components/core/Blog'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home/>} />
           <Route path="/learn" exact element={<Learn/>} />
+          <Route path="/blog" exact element={<Blog/>} />
           <Route path="/contact" exact element={<Contact/>} />
           <Route path="/about" element={<Aboutus/>} />
         </Routes>

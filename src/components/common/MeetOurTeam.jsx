@@ -6,7 +6,7 @@ import Founder from '../../assets/founder.png';
 export default function MeetOurTeam() {
   return (
     <>
-      <p className='text-4xl font-bold font-serif text-gray-800 text-center p-2 m-2 mt-5'> -- Meet Our Team --</p>  
+      <p className='text-3xl font-bold font-serif text-gray-800 text-center p-2 m-2 mt-5'> -- Meet Our Team --</p>  
       <div className='flex flex-col md:flex-row mx-4 md:mx-14 p-5 bg-gray-200 rounded-xl gap-5'>
         <img src={Founder} alt="Founder" className='w-full md:w-auto md:max-w-none mx-auto md:ml-0' style={{ maxWidth: '250px' }} />
         <div className='flex flex-col mx-5 place-content-center'>
